@@ -1,0 +1,8 @@
+@media (max-width: 40em) {
+  text-size: 1px;
+}
+
+@media (--small) {
+    text-size: 1px;
+  }
+

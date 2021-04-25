@@ -1,0 +1,14 @@
+@custom-media --small (width <= 40em);
+
+@define-mixin test $breakpoint {
+  @media (--$(breakpoint)) {
+    text-size: 1px;
+  }
+}
+
+@media (--small) {
+  text-size: 1px;
+}
+
+@mixin test small;
+

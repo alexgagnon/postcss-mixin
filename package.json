@@ -1,0 +1,26 @@
+{
+  "name": "postcss-mixin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "postcss -c postcss.config.js -o output.css index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexgagnon/postcss-mixin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexgagnon/postcss-mixin/issues"
+  },
+  "homepage": "https://github.com/alexgagnon/postcss-mixin#readme",
+  "dependencies": {
+    "postcss": "^8.2.12",
+    "postcss-cli": "^8.3.1",
+    "postcss-mixins": "^7.0.3",
+    "postcss-preset-env": "^6.7.0"
+  }
+}
